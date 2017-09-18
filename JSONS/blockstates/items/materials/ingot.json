@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "builtin/generated",
+    "transform": "forge:default-item"
+  },
+  "variants": {
+    "type": {
+      "copper": {
+        "textures": {
+          "layer0": "tutmod:items/ingot/copper_ingot"
+        }
+      },
+      "steel": {
+        "textures": {
+          "layer0": "tutmod:items/ingot/steel_ingot"
+        }
+      },
+      "tin": {
+        "textures": {
+          "layer0": "tutmod:items/ingot/tin_ingot"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "orientable",
+    "textures": {
+      "particle": "tutmod:blocks/nuke_side",
+      "bottom": "tutmod:blocks/nuke_top",
+      "top": "tutmod:blocks/nuke_top",
+      "front": "tutmod:blocks/nuke_front",
+      "side": "tutmod:blocks/nuke_side"
+    }
+  },
+  "variants": {
+    "inventory": {
+      "transform": "forge:default-block",
+      "textures": {
+      }
+    },
+    "normal": [
+      {}
+    ],
+    "overlay": {
+      "true": {
+        "textures": {
+        }
+      },
+      "false": {
+        "textures": {
+        }
+      }
+    }
+  }
+}
